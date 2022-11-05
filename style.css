@@ -1,0 +1,44 @@
+*{
+	margin: 6px;
+}
+
+header{
+	font-size: 30pt;
+	width: 94%;
+    height: 70%;
+	padding: 10px;
+	margin-bottom: 10px;
+	color: white;
+	background-color: grey;
+}
+.maly{
+	height: 20px;
+	width: 97%;
+	background-color: grey;
+}
+.lewosrodek{
+	float: left;
+	width: 14%;
+	height: 500px;
+	clear: both;
+	background-color: grey;
+}
+.prawosrodek{
+	float: left;
+	width: 81%;
+	height: 500px;
+	background-color: grey;
+}
+.lewodol{
+	float: left;
+	width: 47.5%;
+	height: 100px;
+	clear: both;
+	background-color: gray;
+}
+.prawodol{
+	float: left;
+	width: 47.5%;
+	height: 100px;
+	background-color: gray;
+}
