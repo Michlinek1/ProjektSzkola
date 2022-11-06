@@ -2,6 +2,11 @@
     margin: 6px;
     padding: 8px;
 }
+.main{
+    min-width:850px;
+
+
+}
 header h1{
     font-size: 30pt;
     color: white;
@@ -48,3 +53,28 @@ header{
     width: 18.27em;
     height: 7em;
 }
+@media only screen and (max-width:850px) {
+    .main{
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    header{
+        width: 25em;
+    }
+    .headerPod{
+        width: 25.03em;
+    }
+    .srodekPrawo{
+        width: 14.24em;
+    }
+    .podLewo{
+        width: 10em;
+        height: 5em;
+    }
+    .podPrawo{
+        width: 13.25em;
+        height: 5em;
+    }
+}
+
