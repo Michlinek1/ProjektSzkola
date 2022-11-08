@@ -19,39 +19,39 @@ header h1{
 header{
     background-color: #6C7479;
     width: 45em;
-    height: 6em;
+    height: 10em;
 }
 .headerPod{
     background-color: #6C7479;
     width: 45em;
-    height: 1em;
+    height: 2em;
 }
 
 .srodekLewo{
     float: left;
     background-color: #6C7479;
     width: 9em;
-    height: 35em;
+    height: 40em;
     clear: both;
 }
 .srodekPrawo{
     float: left;
     background-color: #6C7479;
     width: 34.25em;
-    height: 35em;
+    height: 40em;
 }
 .podLewo{
     float: left;
     background-color: #6C7479;
     width: 25em;
-    height: 7em;
+    height: 9em;
     clear: both;
 }
 .podPrawo{
     float: left;
     background-color: #6C7479;
     width: 18.27em;
-    height: 7em;
+    height: 9em;
 }
 @media only screen and (max-width:850px) {
     .main{
@@ -69,11 +69,11 @@ header{
         width: 14.24em;
     }
     .podLewo{
-        width: 10em;
+        width: 15em;
         height: 5em;
     }
     .podPrawo{
-        width: 13.25em;
+        width: 8.25em;
         height: 5em;
     }
 }
