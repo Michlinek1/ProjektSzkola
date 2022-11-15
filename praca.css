@@ -1,80 +1,147 @@
+body{
+    background-color: beige;
+}
 *{
     margin: 6px;
     padding: 8px;
 }
 .main{
+    width: 1000px; 
+    margin: 0 auto; 
     min-width:850px;
 
 
 }
-header h1{
-    font-size: 30pt;
-    color: white;
-    text-align: left;
-    padding: 10px;
-	margin-bottom: 10px;
-    
-
+img{
+    margin-top: 3px;
+    margin-left: 5px;
 }
 header{
     background-color: #6C7479;
-    width: 45em;
+    width: 60em;
     height: 10em;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+a:hover{
+    color: black;
+}
+ul li{
+    display: inline;
+    list-style-type:none;
+    padding-bottom: 20px;
+}
+header nav{
+    text-align: center;
+    justify-content: center;
+
+}
+.srodekPrawo h1{
+    color: white; 
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 62px; 
+    font-weight: 500; 
+    line-height: 72px; 
+    margin: 0 0 24px; 
+    text-align: center; 
+    text-transform: uppercase;
+}
+
+.srodekPrawo p{
+    color:white; 
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 18px; 
+    line-height: 32px; 
+    margin: 0 0 24px;
 }
 .headerPod{
     background-color: #6C7479;
-    width: 45em;
-    height: 2em;
+    width: 60em;
+    height: 3em;
+}
+.headerPod p{
+    text-align: center;
+    font-size: 38px;
+    color:white; 
+    line-height: 1.5px;
 }
 
 .srodekLewo{
     float: left;
     background-color: #6C7479;
-    width: 9em;
+    width: 14em;
     height: 40em;
     clear: both;
 }
 .srodekPrawo{
     float: left;
     background-color: #6C7479;
-    width: 34.25em;
+    width: 44.26em;
     height: 40em;
 }
 .podLewo{
     float: left;
     background-color: #6C7479;
-    width: 25em;
-    height: 9em;
+    width: 34em;
+    height: 13.8em;
     clear: both;
+    block-size: fit-content;  
+}
+.podLewo p{
+    color: white;
+    text-align: center;
+}
+.podLewo h1{
+    font-family: 'Source Sans Pro', sans-serif; 
+    color: white;
+    text-align: center;
 }
 .podPrawo{
     float: left;
     background-color: #6C7479;
-    width: 18.27em;
-    height: 9em;
+    width: 24.25em;
+    height: 13.8em;
 }
-@media only screen and (max-width:850px) {
+.podPrawo img{
+    width: 362px; 
+    height: 200px
+}
+
+
+@media only screen and (max-width:850px) { 
+    ul{
+        padding: 20px;
+    }
     .main{
         display: block;
         justify-content: center;
         text-align: center;
     }
     header{
-        width: 25em;
+        width: 35em;
     }
     .headerPod{
-        width: 25.03em;
+        width: 35em;
+    }
+    .srodekLewo{
+        width: 15em;
     }
     .srodekPrawo{
-        width: 14.24em;
+        width: 18.3em;
     }
     .podLewo{
-        width: 15em;
-        height: 5em;
+        width: 19em;
     }
     .podPrawo{
-        width: 8.25em;
-        height: 5em;
+        width: 14.3em;
+        height: 13.8em;
+    }
+    .podPrawo img{
+        width: 200px;
+        height: 200px;
     }
 }
-
